@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Based CRUD </title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="{% static 'FB_CRUD/css/bootstrap.css' %}">
+
+    <!-- Js File  -->
+    <script src="{% static 'FB_CRUD/js/bootstrap.js' %}"></script>
+    <script src="{% static 'FB_CRUD/js/jquery.js' %}"></script>
+    <script src="{% static 'FB_CRUD/js/popper.js' %}"></script>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h2 class="text-center alert alert-danger">Function Based View Model Form CRUD Project.</h2>
+
+    {% block content %}
+
+    {% endblock content %}
+    </div>
+
+    
+</body>
+</html>
+
